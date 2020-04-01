@@ -17,7 +17,19 @@
 .env.development.local
 .env.test.local
 .env.production.local
+development.env
+production.env
 
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+### Firebase ###
+.idea
+**/node_modules/*
+
+### Firebase Patch ###
+.runtimeconfig.json
+.firebase/
+firebase-config.json
+serviceAccount.json
